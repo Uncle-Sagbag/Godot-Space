@@ -1,12 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://d13p4wi028f0k"]
+[gd_scene format=3 uid="uid://d13p4wi028f0k"]
 
 [ext_resource type="PackedScene" uid="uid://by7ena65b81hb" path="res://Character Scenes/Astronaut.tscn" id="1"]
 
-[node name="Root" type="Node2D"]
+[node name="Root" type="Node2D" unique_id=621029645]
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("1")]
+[node name="CharacterBody2D" parent="." unique_id=1226983805 instance=ExtResource("1")]
 position = Vector2(312, 146)
-script = null
 
-[node name="TileMap" type="TileMap" parent="."]
+[node name="TileMap" type="TileMap" parent="." unique_id=56879169]
 format = 2
